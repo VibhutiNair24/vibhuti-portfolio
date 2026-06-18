@@ -1023,6 +1023,18 @@ header {
   box-shadow: 0 0 20px #00ffe7aa;
   transition: all 0.3s ease;
 }
+marquee {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: rgba(0,0,0,0.25);
+    border-top: 2px solid #00ffe7;
+    border-bottom: 2px solid #00ffe7;
+    box-shadow: 0 0 15px #00ffe7;
+    text-shadow: 0 0 10px #00ffe7;
+    backdrop-filter: blur(8px);
+}
 
 #backToTopBtn:hover {
   background-color: #00d4ff;
